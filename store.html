@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5f3d9f8023.js" crossorigin="anonymous"></script>
+    <title>Mech — Store</title>
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo">
+        <img src="/images/website-logo.png">
+    </a>
+    <!-- nav bar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Store</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="#">Services</a></li>
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-user fa-lg"></i>
+        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+    </ul>
+     <!-- hamburger for mobile view-->
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+</header>
+
+<!-- nav bar for mobile view -->
+<nav class = "mobile-nav-bar">
+    <a href="index.html">Home</a>
+    <a href="#">Store</a>
+    <a href="support.html">Support</a>
+    <a href="#">Services</a>
+</nav>
+
+<!-- hero section -->
+<div class="store-hero-bg">
+    <div class="store-hero-text">
+        <h1>Products</h1>
+    </div>
+</div>
+
+<!-- filter -->
+<div class="filter-container">
+        <button class="filter-btn active" onclick="filterProducts('all')">All</button>
+        <button class="filter-btn" onclick="filterProducts('keyboards')">Keyboards</button>
+        <button class="filter-btn" onclick="filterProducts('switches')">Switches</button>
+        <button class="filter-btn" onclick="filterProducts('keycaps')">Keycaps</button>
+</div>
+
+<!-- products -->
+<div class="product-container">
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-1.jpg"></a>
+        <h3>Mech Black V1</h3>
+        <p>S$139</p>
+    </div>
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-2.jpg"></a>
+        <h3>Mech Pastel V1</h3>
+        <p>S$189</p>
+    </div>
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-3.jpg"></a>
+        <h3>Mech White V1</h3>
+        <p>S$139</p>
+    </div>
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-4.jpg"></a>
+        <h3>Mech Monochrome V1</h3>
+        <p>S$149</p>
+    </div>
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-5.jpg"></a>
+        <h3>Mech Deep Blue V1</h3>
+        <p>S$189</p>
+    </div>
+    <div class="product keyboards">
+        <a href = "#"><img src="images/keyboard-6.jpg"></a>
+        <h3>Mech Sakura V1</h3>
+        <p>S$199</p>
+    </div>
+    <div class="product switches">
+        <a href = "#"><img src="images/red-switches.jpeg"></a>
+        <h3>Cherry MX Red Switches</h3>
+        <p>S$9.90 (10pcs)</p>
+    </div>
+    <div class="product switches">
+        <a href = "#"><img src="images/blue-switches.jpeg"></a>
+        <h3>Cherry MX Blue Switches</h3>
+        <p>S$9.90 (10pcs)</p>
+    </div>
+    <div class="product switches">
+        <a href = "#"><img src="images/brown-switches.jpeg"></a>
+        <h3>Cherry MX Brown Switches</h3>
+        <p>S$9.90 (10pcs)</p>
+    </div>
+    <div class="product switches">
+        <a href = "#"><img src="images/black-switches.jpeg"></a>
+        <h3>Cherry MX Black Switches</h3>
+        <p>S$9.90 (10pcs)</p>
+    </div>
+    <div class="product keycaps">
+        <a href = "#"><img src="images/white-keycaps.jpg"></a>
+        <h3>White Keycaps Set (104-Key)</h3>
+        <p>S$40.00</p>
+    </div>
+    <div class="product keycaps">
+        <a href = "#"><img src="images/black-keycaps.jpg"></a>
+        <h3>Black Keycaps Set (104-Key)</h3>
+        <p>S$40.00</p>
+    </div>
+</div>
+
+<!-- footer-->
+<div class="footer-container">
+    <div class="footer-column">
+        <img src="images/footer-logo.png">
+    </div>
+    <div class="footer-column">
+        <h2>Store</h2>
+        <ul>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">Switches</a></li>
+            <li><a href="#">Keycaps</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h2>Newsletter</h2>
+        <form action="#">
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</div>
+
+<!-- copyright-->
+<div class="copyright">
+    <p>&copy; 2022, Mech</p>
+</div>
+    
+<script src="script.js"></script>
+</body>
+</html>

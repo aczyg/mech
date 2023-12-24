@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/5f3d9f8023.js" crossorigin="anonymous"></script>
+    <title>Mech — Support</title>
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo">
+        <img src="/images/website-logo.png">
+    </a>
+    <!-- nav bar -->
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Services</a></li>
+        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+        <i class="fa-solid fa-user fa-lg"></i>
+        <i class="fa-solid fa-cart-shopping fa-lg"></i>
+    </ul>
+    <!-- hamburger for mobile view -->
+    <button class="hamburger">
+        <div class="bar"></div>
+    </button>
+</header>
+
+<!-- nav bar for mobile view -->
+<nav class = "mobile-nav-bar">
+    <a href="index.html">Home</a>
+    <a href="store.html">Store</a>
+    <a href="#">Support</a>
+    <a href="#">Services</a>
+</nav>
+
+<!-- customer help section -->
+<div class="customer-help-container">
+    <h1>Customer Help</h1>
+    <p>Store policies regarding ordering, shipping, returns, and warranty info.</p>
+</div>
+
+<!-- order & payment -->
+<div class="order-payment-container">
+    <h1>Order & Payment</h1>
+    <hr>
+    <button class="accordion">What payment options are available?</button>
+    <div class="panel">
+        <p>We accept payments made via all major debit and credit cards.</p>
+    </div>
+    <hr>
+    <button class="accordion">Can I make changes to my order after submitting?</button>
+    <div class="panel">
+        <p>Please write to us at support@mech.sg and quote your order number. Our support team will do their best to assist you.</p>
+    </div>
+</div>
+
+<!-- delivery & shipping -->
+<div class="delivery-shipping-container">
+    <h1>Delivery & Shipping</h1>
+    <hr>
+    <button class="accordion">How much is delivery fee?</button>
+    <div class="panel">
+        <p>All orders above SGD$100 will qualify for free delivery.</p>
+    </div>
+    <hr>
+    <button class="accordion">How long is the delivery?</button>
+    <div class="panel">
+        <p>All orders will be delivered straight to your doorstep by our local couriers within 2-4 working days.
+        Should there be any changes to your picked delivery dates and timings, we will contact you at least 1 working day in advance to notify you of the changes.</p>
+    </div>
+    <hr>
+    <button class="accordion">Can I change or cancel my order once it is shipped?</button>
+    <div class="panel">
+        <p>Unfortunately, once an order is shipped, we will be unable to make any changes or cancel it.</p>
+    </div>
+</div>
+
+<!-- warranty, returns & refunds -->
+<div class="warranty-returns-refunds-container">
+    <h1>Warranty, Returns & Refunds</h1>
+    <hr>
+    <button class="accordion">What does our warranty cover?</button>
+    <div class="panel">
+        <p>Our limited 1-year warranty covers all the components of your mechanical keyboard.
+        For out-of-box defects, please email us at support@mech.sg with your order number and photos or videos of the issue at hand (if available).</p>
+    </div>
+    <hr>
+    <button class="accordion">Returns & Refunds</button>
+    <div class="panel">
+        <p>All returns must be received by us within 7 days from the day you receive your items based on our records. Your return will be voided if it is not received by us during this time frame.<br>
+        The products must also be returned in their original packaging and must be accompanied by a valid receipt or proof of purchase.<br>
+        Returned items are subject to a condition check, after which we will notify you via email before proceeding with an exchange or refund. The refund processing period may vary between 5-7 working days from the reception of your returned items at our office.</p>
+    </div>
+</div>
+
+<!-- footer-->
+<div class="footer-container">
+    <div class="footer-column">
+        <img src="images/footer-logo.png">
+    </div>
+    <div class="footer-column">
+        <h2>Store</h2>
+        <ul>
+            <li><a href="#">Keyboards</a></li>
+            <li><a href="#">Switches</a></li>
+            <li><a href="#">Keycaps</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h2>Resources</h2>
+        <ul>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
+    <div class="footer-column">
+        <h2>Newsletter</h2>
+        <form action="#">
+            <input type="email" id="email" name="email" placeholder="Your email address">
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+</div>
+
+<!-- copyright-->
+<div class="copyright">
+    <p>&copy; 2022, Mech</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
